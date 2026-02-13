@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
+import { SiNextdotjs, SiSolidity, SiSpringboot, SiThymeleaf } from "react-icons/si";
 import { FaRust } from "react-icons/fa";
+import { DiHtml5, DiCss3 } from "react-icons/di";
 import Go from "../../Assets/TechIcons/go.svg";
 import C from "../../Assets/TechIcons/C++.svg";
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
@@ -24,10 +25,12 @@ import MUI from "../../Assets/TechIcons/MUI.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import AWS from "../../Assets/TechIcons/AWS.svg";
 import Kafka from "../../Assets/TechIcons/Kafka.svg";
+import VSCode from "../../Assets/TechIcons/vscode.svg";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {/* Programming Languages */}
       <Col xs={4} md={2} className="tech-icons">
         <img src={Javascript} alt="javascript" />
         <div className="tech-icons-text">Javascript</div>
@@ -38,12 +41,52 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={C} alt="C" />
-        <div className="tech-icons-text">C</div>
+        <div className="tech-icons-text">C++</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Python} alt="Python" />
+        <div className="tech-icons-text">Python</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Typescript} alt="Typescript" />
+        <div className="tech-icons-text">Typescript</div>
+      </Col>
+
+      {/* Web Technologies */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 style={{ fontSize: "55px", color: "#EC5D0F" }} />
+        <div className="tech-icons-text">HTML5</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 style={{ fontSize: "55px", color: "#1572B6" }} />
+        <div className="tech-icons-text">CSS3</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={ReactIcon} alt="react" />
         <div className="tech-icons-text">React.Js</div>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpringboot style={{ fontSize: "55px", color: "#6DB33F" }} />
+        <div className="tech-icons-text">Spring Boot</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiThymeleaf style={{ fontSize: "55px", color: "#005C0F" }} />
+        <div className="tech-icons-text">Thymeleaf</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Node} alt="Node" />
+        <div className="tech-icons-text">Node.js</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Tailwind} alt="Tailwind" />
+        <div className="tech-icons-text">Tailwind</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Redux} alt="Redux" />
+        <div className="tech-icons-text">Redux</div>
+      </Col>
+
+      {/* Databases */}
       <Col xs={4} md={2} className="tech-icons">
         <img src={Mongo} alt="mongoDb" />
         <div className="tech-icons-text">MongoDB</div>
@@ -52,9 +95,35 @@ function Techstack() {
         <img src={SQL} alt="SQL" />
         <div className="tech-icons-text">MySQL</div>
       </Col>
+
+      {/* Tools & Technologies */}
       <Col xs={4} md={2} className="tech-icons">
         <img src={Git} alt="git" />
         <div className="tech-icons-text">Git</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={VSCode} alt="vscode" />
+        <div className="tech-icons-text">VS Code</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Docker} alt="Docker" />
+        <div className="tech-icons-text">Docker</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Firebase} alt="Firebase" />
+        <div className="tech-icons-text">Firebase</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={AWS} alt="AWS" />
+        <div className="tech-icons-text">AWS</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={MUI} alt="MUI" />
+        <div className="tech-icons-text">Material UI</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Postman} alt="Postman" />
+        <div className="tech-icons-text">Postman</div>
       </Col>
     </Row>
   );
