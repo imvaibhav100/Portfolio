@@ -54,11 +54,11 @@ function Techstack() {
 
       {/* Web Technologies */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 style={{ fontSize: "55px", color: "#EC5D0F" }} />
+        <DiHtml5 style={{ fontSize: "50px", color: "#EC5D0F" }} />
         <div className="tech-icons-text">HTML5</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 style={{ fontSize: "55px", color: "#1572B6" }} />
+        <DiCss3 style={{ fontSize: "50px", color: "#1572B6" }} />
         <div className="tech-icons-text">CSS3</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -66,17 +66,14 @@ function Techstack() {
         <div className="tech-icons-text">React.Js</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSpringboot style={{ fontSize: "55px", color: "#6DB33F" }} />
+        <SiSpringboot style={{ fontSize: "50px", color: "#6DB33F" }} />
         <div className="tech-icons-text">Spring Boot</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiThymeleaf style={{ fontSize: "55px", color: "#005C0F" }} />
+        <SiThymeleaf style={{ fontSize: "50px", color: "#005C0F" }} />
         <div className="tech-icons-text">Thymeleaf</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Node} alt="Node" />
-        <div className="tech-icons-text">Node.js</div>
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <img src={Tailwind} alt="Tailwind" />
         <div className="tech-icons-text">Tailwind</div>
@@ -101,22 +98,13 @@ function Techstack() {
         <img src={Git} alt="git" />
         <div className="tech-icons-text">Git</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={VSCode} alt="vscode" />
-        <div className="tech-icons-text">VS Code</div>
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <img src={Docker} alt="Docker" />
         <div className="tech-icons-text">Docker</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Firebase} alt="Firebase" />
-        <div className="tech-icons-text">Firebase</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={AWS} alt="AWS" />
-        <div className="tech-icons-text">AWS</div>
-      </Col>
+      
+      
       <Col xs={4} md={2} className="tech-icons">
         <img src={MUI} alt="MUI" />
         <div className="tech-icons-text">Material UI</div>
